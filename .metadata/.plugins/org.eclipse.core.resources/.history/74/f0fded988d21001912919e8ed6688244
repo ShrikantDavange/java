@@ -1,0 +1,15 @@
+
+public class Isprime {
+
+	public void isPrime(int n) {
+		// TODO Auto-generated method stub
+		for (int i = 2; i <= n; i++) {
+			if (n % i == 0) {
+				System.out.printf("Number %d is not a prime :D", n);
+			}
+			else {System.out.println("Number %d is a prime",n);}
+
+		}
+	}
+
+}

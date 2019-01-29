@@ -1,0 +1,11 @@
+
+public class longestDay {
+
+	 void calday(String[] days) {
+		for (String day : days) {
+			System.out.println(day.length());
+		}
+
+	}
+
+}

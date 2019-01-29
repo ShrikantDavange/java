@@ -1,0 +1,17 @@
+package test;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello");
+
+		Second childsecond = new Second();
+		childsecond.setter(5);
+
+		test testchild = new test();
+		System.out.println(testchild.speed);
+
+	}
+
+}

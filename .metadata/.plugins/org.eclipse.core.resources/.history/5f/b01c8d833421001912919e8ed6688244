@@ -1,0 +1,12 @@
+package test;
+
+public class Second {
+	private int speed;
+
+	void setter(int test) {
+		this.speed = test;
+		System.out.println("This is the speed " + speed);
+		System.out.println("This is a test" + test);
+
+	}
+}
