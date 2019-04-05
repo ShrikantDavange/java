@@ -14,4 +14,5 @@ public class FunRunner {
 	private static void printwithFunctionalprog(List<Integer> list) {
 		list.stream().filter(element -> element % 2 == 0).forEach(element -> System.out.println(element));
 	}
+
 }
